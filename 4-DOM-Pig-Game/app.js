@@ -13,7 +13,7 @@ document.querySelector(".btn-roll").addEventListener("click", function () {
             roundScore += dice;
             document.querySelector("#current-"+ activePlayer).textContent = roundScore;
         } else {
-            nextPlayer()
+            setTimeout(function(){nextPlayer()}, 500);
         }
     }
 });

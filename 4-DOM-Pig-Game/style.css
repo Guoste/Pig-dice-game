@@ -25,9 +25,9 @@ body {
 }
 .rules {
     color: #EB4D4D;
-    width: 1000px;
+    width: 800px;
     margin:20px auto;
-    padding: 40px;
+    padding: 60px;
     background-color: #fff;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
     overflow: hidden;
@@ -163,5 +163,5 @@ i {
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
 }
 
-.winner { background-color: #f7f7f7; }
+.winner { background-color: #f8e7e7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
